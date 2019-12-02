@@ -1,4 +1,4 @@
-####About Employee project
+#### About Employee project
 
 ````
 1) просматривать записи могут все 
@@ -56,7 +56,7 @@ front:
 
 ````
 #### Back api
-######open address
+###### open address
 ````
 Auth
 
@@ -82,7 +82,7 @@ data: {
 response: token
 ****
 ````
-######closed address
+###### closed address
 ````
 User
 
@@ -96,7 +96,7 @@ headers:{
 
 ****
 ````
-######open address
+###### open address
 ````
 Employees
 
@@ -112,7 +112,7 @@ params:{
 
 ****
 ````
-######closed address
+###### closed address
 ````
 Employees
 

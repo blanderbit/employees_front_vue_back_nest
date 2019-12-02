@@ -1,0 +1,25 @@
+version: '3'
+services:
+  mysql:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: test
+      MYSQL_DATABASE: test
+    ports:
+      - 3306:3306
+  back:
+    build:
+      context: ./
+      dockerfile: ./back/Dockerfile
+    restart: always
+    ports: 
+      - 3001:3001
+    links:
+      - mysql
+  front:
+    build:
+      context: ./
+      dockerfile: ./front/Dockerfile
+    restart: always
+    ports: 
+      - 8080:8080

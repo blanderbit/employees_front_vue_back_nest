@@ -1,0 +1,11 @@
+.headline{
+    color: white;
+}
+.progress{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
+.capitalize{
+    text-transform: capitalize;
+}

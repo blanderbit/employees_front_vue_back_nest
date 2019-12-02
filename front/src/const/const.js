@@ -40,4 +40,12 @@ export const siteBarList = [
         checkToken: true,
         TokenActive: true
     },
-]
+];
+
+export const defaultHeaders = {
+    dateOfBirth: 'test',
+    fio:  'test',
+    id: 0,
+    position:  'test',
+    salary: 0
+};

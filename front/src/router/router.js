@@ -1,10 +1,10 @@
-import Auth from "../page/Auth.vue";
-import Employees from "../page/Employees.vue";
-import ActionEmployers from "../page/ActionEmployers.vue";
+import Auth from "../page/Auth/index.vue";
+import Employees from "../page/Employees/index.vue";
+import ActionEmployers from "../page/ActionEmployers/index.vue";
 
 export const routes = [
-    { path: '/', redirect: '/register' },
-    { path: '*', redirect: '/register' },
+    { path: '/', redirect: '/employees' },
+    { path: '*', redirect: '/employees' },
     {
         path: '/login',
         name: 'login',
